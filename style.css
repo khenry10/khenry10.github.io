@@ -15,12 +15,31 @@ header {
 }
 
 #github {
-  background-image: url("/images/GitHub_Logo.png");
-  height: 65px;
-  width: 65px;
+  background-image: url("images/github-3-64.png");
+  height: 60px;
+  width: 60px;
   display: inline-block;
   margin-left: 50%;
-  background: white;
+}
+
+#github:hover {
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(15, 100, 248);
+}
+
+#linkedin {
+  background-image: url("images/linkedin-3-64.png");
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  margin-left: 50%;
+}
+
+#linkedin:hover {
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(15, 100, 248);
 }
 
 h1 {
