@@ -1,11 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-image: url("images/nebula_large.jpg");
+  /*background-image: url("images/nebula_large.jpg");*/
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin-left: 0px;
+  background-color: #000;
 }
 
+/*h1 {
 header {
     height: 100px;
     width: 100%;
@@ -13,6 +19,7 @@ header {
     padding-bottom: 450px;
     padding-top: 25px;
 }
+
 
 #github {
   background-image: url("images/github-3-64.png");
@@ -37,12 +44,12 @@ header {
 }
 
 #linkedin:hover {
-  border-style: solid;
+  outline: solid;
+  outline-width: 5px;
   border-width: 5px;
   border-color: rgb(15, 100, 248);
 }
 
-h1 {
   font-family: arial;
   font-size: 100px;
   color: #ffffff;
@@ -50,15 +57,33 @@ h1 {
     rgb(183, 15, 62), -4px -4px 8px
     rgb(15, 100, 248), 0px 5px 8px;
   text-align: center;
-}
+}*/
+
+
+h1 {
+  display: block;
+      width: 1200px;
+      padding: 0px;
+      padding-left: 0px;
+      text-align: left;
+      padding-top: 0px;
+      box-sizing: border-box;
+      font: 200 30em helvetica;
+      letter-spacing: -.02em;
+      background: url("images/nebula_large.jpg") no-repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
 
 div {
-  height: 800px;
+  height: 1000px;
   background-color: #000;
   margin-left: 0px;
   color: #fff;
 }
 
+/**
 h2 {
   margin-left: 300px;
 }
@@ -104,3 +129,4 @@ li {
   justify-content: space-between;
   margin-bottom: 5px;
 }
+**/
