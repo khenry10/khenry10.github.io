@@ -1,24 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 body {
-  background-color: pink;
+  background-color: black;
   align-items: center;
   align-content: center;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 
 .navigation {
   display: block;
   width: 100%;
   height: 50px;
-  background-color: white;
+  background-color: black;
   margin: 0;
   margin-bottom: 0px;
+  border-bottom: 1px solid white;
+}
+
+a {
+  color: #0671D4;
+  text-decoration: none;
 }
 
 .nav-item {
+  font-size: 25px;
   display: inline-block;
   padding-left: 70px;
-  padding-right: 200px;
+  padding-right: 30px;
   padding-top: 10px;
+  border-right: 1px solid white;
+
 }
 
 .nav-left {
@@ -32,15 +45,22 @@ body {
 .hero {
   display: flex;
   width: 100%;
-  height: 600px;
-  background-color: black;
+  height: 400px;
+  background-color: #e74c3c;
+  justify-content: space-around;
+  /*background: url("images/earth.png") no-repeat;*/
+  background-size: contain;
+  padding-top: 150px;
+
 }
 
 .about {
   display: flex;
-  width: 100%;
   height: 400px;
   background-color: #3498db;
+  justify-content: space-around;
+  padding-top: 100px;
+  padding-left: 5%;
 }
 
 .portfolio {
@@ -49,3 +69,52 @@ body {
   height: 400px;
   background-color: #2ecc71;
 }
+
+.content {
+  width: 55%;
+  height: 30%;
+  padding-bottom: 50px;
+  background: gray;
+}
+
+.about-content {
+  width: 60%;
+  height: 60%;
+  padding-bottom: 50px;
+  background: gray;
+}
+
+p {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.social-media-container {
+  border: 1px solid white;
+  height: 100px;
+  width: 100px;
+  padding-right: 300px;
+  padding-top: 10%;
+
+}
+
+/*.keith {
+  padding-left: 50px;
+}
+
+.prifte {
+  padding-top: 300px;
+  padding-right: 50px;
+}
+
+h1 {
+  display: block;
+  font-family: 'Faster One', cursive;
+  font: 500;
+  /*letter-spacing: -.02em;*/
+  background: url("images/nebula_large.jpg") no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0;
+  margin-left: 10px;
+  }*/
