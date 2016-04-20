@@ -59,6 +59,7 @@ body {
 
 .about {
   display: flex;
+  flex-wrap: wrap;
   height: 750px;
   background-color: #358BF7;
   justify-content: space-around;
@@ -90,6 +91,7 @@ body {
   border-radius: 10px;
   padding-left: 1%;
   padding-right: 1%;
+  flex-wrap: wrap;
 }
 
 .content p {
@@ -101,10 +103,20 @@ body {
 }
 
 .about-skills {
-  border: 1px white solid;
+  display: flex;
+  flex-wrap: wrap;
+  /*border: 1px white solid;*/
   height: 100px;
-  width: 60%;
-  margin-top: 500px;
+  width: 50%;
+  justify-content: space-between;
+  background: rgba(128, 128, 128, 0.63);
+  border-radius: 10px;
+  padding: 1%;
+}
+
+p {
+
+  font-size: 18px;
 }
 
 .social-media-container {
