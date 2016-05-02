@@ -61,7 +61,6 @@ body {
   justify-content: space-around;
   background: url("images/star-lake.jpg") no-repeat;
   background-size: cover;
-  /*background-size: contain;*/
   padding-top: 150px;
 
 }
@@ -257,14 +256,6 @@ h1 {
 
 /*    Mobile Responsive    */
 
-@media only screen and (max-device-width: 667px)
-    and (-webkit-device-pixel-ratio: 2) {
-  .hero {
-    width: 100%;
-  }
-}
-
-
 @media only screen and (max-width: 700px){
 
   /** {
@@ -273,6 +264,8 @@ h1 {
 
   .hero {
     width: 100%;
+    background: url("images/star-lake.jpg") no-repeat;
+    background-size: contain;
   }
 
   .about {
@@ -297,11 +290,12 @@ h1 {
 
   .content {
     width: 108%;
-    height: 50%;
+    height: 55%;
     padding-bottom: 50px;
     background: rgba(128, 128, 128, 0.63);
     padding-left: 1%;
     border-radius: 10px;
+    margin-top: 200px;
   }
 
   .about {
