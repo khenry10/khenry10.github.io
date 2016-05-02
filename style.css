@@ -14,11 +14,6 @@ body {
   background-color: #2C3E50;
 }
 
-@media (min-width: 700px){
-  .about-content p {
-    font-size: 16px;
-  }
-}
 
 .navigation {
   display: block;
@@ -43,7 +38,7 @@ body {
 .nav-item {
   font-size: 25px;
   display: inline-block;
-  padding-left: 70px;
+  padding-left: 10px;
   padding-right: 30px;
   padding-top: 10px;
 }
@@ -84,7 +79,7 @@ body {
 
 .content {
   width: 55%;
-  height: 25%;
+  height: 20%;
   padding-bottom: 50px;
   background: rgba(128, 128, 128, 0.63);
   padding-left: 1%;
@@ -94,7 +89,7 @@ body {
 .about-content {
   display: flex;
   width: 60%;
-  height: 50%;
+  height: 55%;
   background: rgba(128, 128, 128, 0.63);
   border-radius: 10px;
   padding-left: 1%;
@@ -107,7 +102,7 @@ body {
 }
 
 .about-content p {
-  /*font-size: 20px;*/
+  font-size: 20px;
 }
 
 .about-skills-title {
@@ -121,7 +116,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   height: 100px;
-  width: 80%;
+  width: 70%;
   justify-content: space-between;
   background: rgba(128, 128, 128, 0.63);
   border-radius: 10px;
@@ -257,6 +252,103 @@ h1 {
 }
 
 
-/*@media only screen and (max-width: 768px) {
+/*    Mobile Responsive    */
 
-} */
+@media only screen and (max-width: 700px){
+
+  /** {
+    outline: 1px solid white;
+  }*/
+
+  .about-content p {
+    font-size: 20px;
+  }
+
+  .content {
+    width: 100%;
+    height: 50%;
+    padding-bottom: 50px;
+    background: rgba(128, 128, 128, 0.63);
+    padding-left: 1%;
+    border-radius: 10px;
+  }
+
+  .about {
+    height: 1200px;
+  }
+
+  .about-title {
+    margin: 0 auto;
+    padding-left: 10px;
+  }
+
+  .about-content {
+    display: flex;
+    width: 100%;
+    height: 60%;
+    background: rgba(128, 128, 128, 0.63);
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .about-skills {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 100%;
+    /*justify-content: space-between;*/
+    background: rgba(128, 128, 128, 0.63);
+    border-radius: 10px;
+    padding: 1%;
+  }
+
+  .social-media-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items:center;
+    justify-content: space-between;
+    padding: 30px;
+  }
+
+  .about-skills-title {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /*padding-left: 25%;*/
+    justify-content: space-between;
+  }
+
+  .nav-item {
+    font-size: 20px;
+    display: inline-block;
+    padding-right: 30px;
+    padding-top: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 1300px){
+  .about-content p {
+    font-size: 18px;
+  }
+
+  .about-skills {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  .about-content p {
+    font-size: 16px;
+  }
+
+  .about-skills {
+    font-size: 12px;
+    padding: 15px;
+  }
+
+  .content {
+    height: 30%;
+}
