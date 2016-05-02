@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+/** {
+  outline: 1px solid white;
+}*/
+
 body {
   /*background-color: black;*/
   align-items: center;
@@ -7,6 +11,12 @@ body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   color: white;
+}
+
+@media (min-width: 700px){
+  .about-content p {
+    font-size: 16px;
+  }
 }
 
 .navigation {
@@ -98,7 +108,7 @@ body {
 }
 
 .about-content p {
-  font-size: 20px;
+  /*font-size: 20px;*/
 }
 
 .about-skills-title {
@@ -120,8 +130,8 @@ body {
 }
 
 p {
-
-  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .social-media-container {
