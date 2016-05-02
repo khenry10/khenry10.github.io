@@ -272,6 +272,10 @@ h1 {
     width: 108%;
   }
 
+  .navigation {
+    width: 108%;
+  }
+
   .about-content p {
     font-size: 20px;
   }
@@ -314,6 +318,10 @@ h1 {
     background: rgba(128, 128, 128, 0.63);
     border-radius: 10px;
     padding: 1%;
+  }
+
+  .about-skills p {
+    padding: 7px;
   }
 
   .social-media-container {
