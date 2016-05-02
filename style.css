@@ -273,9 +273,11 @@ h1 {
   }
 
   .navigation {
-    width: 108%;
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 16px;
   }
 
   .about-content p {
