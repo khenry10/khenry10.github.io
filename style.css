@@ -353,8 +353,9 @@ h1 {
   .nav-item {
     font-size: 20px;
     display: inline-block;
-    /*padding-right: 30px;*/
     padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
 
