@@ -295,7 +295,7 @@ h1 {
     background: rgba(128, 128, 128, 0.63);
     padding-left: 1%;
     border-radius: 10px;
-    margin-top: 200px;
+    margin-top: 100px;
   }
 
   .about {
@@ -386,5 +386,5 @@ h1 {
   }
 
   .content {
-    height: 40%;
+    height: 45%;
 }
