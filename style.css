@@ -260,6 +260,18 @@ h1 {
     outline: 1px solid white;
   }*/
 
+  .hero {
+    width: 108%;
+  }
+
+  .about {
+    width: 108%;
+  }
+
+  .portfolio {
+    width: 108%;
+  }
+
   .about-content p {
     font-size: 20px;
   }
