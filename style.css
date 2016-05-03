@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-/** {
+* {
   outline: 1px solid white;
-}*/
+}
 
 body {
   /*background-color: black;*/
@@ -267,6 +267,7 @@ h1 {
     width: 100%;
     background: url("images/star-lake.jpg") no-repeat;
     background-size: contain;
+    height: 80vh;
   }
 
   .about {
