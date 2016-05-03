@@ -218,12 +218,53 @@ p {
   width: 100%;
 }
 
-#pilot:hover {
-  box-shadow: 3px 3px 3px white;
+a {
+  text-decoration: none;
 }
 
+#pilot:hover {
+  box-shadow: 3px 3px 3px white;
+  background: #358BF7;
+  transition: all 2s;
+}
+
+#pilot .text {
+position:relative;
+bottom:30px;
+left:0px;
+visibility:hidden;
+text-decoration: none;
+}
+
+#pilot:hover .text {
+  padding-top: 3%;
+  visibility:visible;
+  color: white;
+  text-decoration: none;
+  padding-left: 5%;
+}
+
+
 #thrive:hover {
-  box-shadow: 3px 3px 3px #358BF7;
+  box-shadow: 3px 3px 3px #white;
+  background: #358BF7;
+  transition: all 2s;
+}
+
+#thrive .text {
+position:relative;
+bottom:30px;
+left:0px;
+visibility:hidden;
+text-decoration: none;
+}
+
+#thrive:hover .text {
+  padding-top: 5%;
+  visibility:visible;
+  color: white;
+  text-decoration: none;
+  padding-left: 5%;
 }
 
 #memory {
@@ -240,8 +281,25 @@ p {
 
 #memory:hover {
   box-shadow: 3px 3px 3px white;
+  background: #358BF7;
+  transition: all 2s;
 }
 
+#memory .text {
+position:relative;
+bottom:30px;
+left:0px;
+visibility:hidden;
+text-decoration: none;
+}
+
+#memory:hover .text {
+  padding-top: 5%;
+  visibility:visible;
+  color: white;
+  text-decoration: none;
+  padding-left: 5%;
+}
 
 .about-title {
   margin-left: 100px;
