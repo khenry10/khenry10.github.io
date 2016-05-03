@@ -271,15 +271,15 @@ h1 {
   }
 
   .about {
-    width: 108%;
+    width: 116%;
   }
 
   .portfolio {
-    width: 108%;
+    width: 116%;
   }
 
   .navigation {
-    width: 92%;
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -291,7 +291,7 @@ h1 {
   }
 
   .content {
-    width: 108%;
+    width: 116%;
     height: 55%;
     padding-bottom: 50px;
     background: rgba(128, 128, 128, 0.63);
@@ -302,7 +302,7 @@ h1 {
 
   .about {
     height: 1200px;
-    width: 100%;
+    width: 116%;
   }
 
   .about-title {
