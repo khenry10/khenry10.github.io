@@ -264,18 +264,18 @@ h1 {
   }*/
 
   .hero {
-    width: 100%;
+    width: 108%;
     background: url("images/star-lake.jpg") no-repeat;
     background-size: contain;
     height: 80vh;
   }
 
   .about {
-    width: 100%;
+    width: 108%;
   }
 
   .portfolio {
-    width: 100%;
+    width: 108%;
   }
 
   .navigation {
