@@ -13,8 +13,8 @@ body {
   color: white;
   background-color: #2C3E50;
   /*width: 100%;*/
-  /*overflow-y: scroll;
-  overflow-x: hidden;*/
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 
@@ -264,18 +264,18 @@ h1 {
   }*/
 
   .hero {
-    width: 116%;
+    width: 124%;
     background: url("images/star-lake.jpg") no-repeat;
     background-size: contain;
     height: 80vh;
   }
 
   .about {
-    width: 116%;
+    width: 124%;
   }
 
   .portfolio {
-    width: 116%;
+    width: 124%;
   }
 
   .navigation {
@@ -291,7 +291,7 @@ h1 {
   }
 
   .content {
-    width: 116%;
+    width: 124%;
     height: 55%;
     padding-bottom: 50px;
     background: rgba(128, 128, 128, 0.63);
@@ -303,7 +303,7 @@ h1 {
 
   .about {
     height: 1200px;
-    width: 116%;
+    width: 124%;
   }
 
   .about-title {
@@ -314,7 +314,7 @@ h1 {
   .about-content {
     display: flex;
     width: 100%;
-    height: 40%;
+    height: 42%;
     background: rgba(128, 128, 128, 0.63);
     border-radius: 10px;
     flex-wrap: wrap;
