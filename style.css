@@ -416,7 +416,7 @@ h1 {
   }
 
   .nav-item {
-    font-size: 20px;*/
+    font-size: 20px;
     display: inline-block;
     padding-top: 10px;
     padding-left: 0px;
@@ -447,5 +447,6 @@ h1 {
   }
 
   .content {
-    height: 40%;
+    height: 55%;
+  }
 }
