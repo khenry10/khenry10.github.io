@@ -62,7 +62,6 @@ body {
   background: url("images/star-lake.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
-
 }
 
 .about {
@@ -326,7 +325,7 @@ h1 {
     background: url("images/star-lake.jpg") no-repeat;
     background-size: contain;
     height: 80vh;
-    margin-top: 20px;
+    top: 0px;
   }
 
   .about {
