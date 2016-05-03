@@ -12,9 +12,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: white;
   background-color: #2C3E50;
-  width: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  /*width: 100%;*/
+  /*overflow-y: scroll;
+  overflow-x: hidden;*/
 }
 
 
@@ -264,7 +264,7 @@ h1 {
   }*/
 
   .hero {
-    width: 108%;
+    width: 116%;
     background: url("images/star-lake.jpg") no-repeat;
     background-size: contain;
     height: 80vh;
