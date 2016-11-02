@@ -1,14 +1,18 @@
-$(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
+'use strict';
+
+(function(){
+  angular
+  .module("app", [])
+  .controller("indexController", indexController)
+
+  function indexController(){
+    var vm = this;
+    vm.click = function(span){
+      console.log(span)
+      $('html, body').animate({
+        scrollTop: $("."+span).offset().top
+      }, 2000);
     }
-  });
-});
+  };
+
+})();

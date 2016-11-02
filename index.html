@@ -6,19 +6,23 @@
     <link rel="stylesheet" href=style.css />
     <link rel="icon" href="images/favicon.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular-resource.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+
     <script src="app.js"></script>
+
   </head>
 
-  <body>
-      <div class="navigation">
+  <body data-ng-app="app">
+      <div class="navigation" data-ng-controller="indexController as indexVM">
         <a name="keithprifte"></a>
         <span class="left-nav">
-          <span class="nav-item"><a href="#keithprifte">Keith Prifte</span></a>
+          <button style="color: white; padding-top: 0.65%;" ng-click="indexVM.click('hero')">Keith Prifte</button>
         </span>
-        <span class="nav-right">
-          <span class="nav-item"><a href="#about">About</a></span>
-          <span class="nav-item"><a href="#portfolio">Portfolio</a></span>
-
+        <span class="right-nav">
+          <button style="color: #358BF7;" ng-click="indexVM.click('about')">About</button>
+          <button style="color: #358BF7;" ng-click="indexVM.click('portfolio')">Portfolio</button>
         </select>
         </span>
       </div>
@@ -27,8 +31,8 @@
           <p> Full-Stack Software Developer continuously exploring new knowledge, making meaningful connections, and striving to build enlightening data-fueled experiences. </p>
         </div>
       </div>
-      <div class="about" >
-        <a name="about"></a>
+      <div class="about">
+        <!-- <a name="about"></a> -->
         <div class="about-title" >
             <h1>About Me</h1>
         </div>
