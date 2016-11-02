@@ -9,6 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular-resource.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+  
 
     <script src="app.js"></script>
 
@@ -18,11 +19,11 @@
       <div class="navigation" data-ng-controller="indexController as indexVM">
         <a name="keithprifte"></a>
         <span class="left-nav">
-          <button style="color: white; padding-top: 0.65%;" ng-click="indexVM.click('hero')">Keith Prifte</button>
+          <button ng-click="indexVM.click('hero')">Keith Prifte</button>
         </span>
         <span class="right-nav">
-          <button style="color: #358BF7;" ng-click="indexVM.click('about')">About</button>
-          <button style="color: #358BF7;" ng-click="indexVM.click('portfolio')">Portfolio</button>
+          <button  ng-click="indexVM.click('about')">About</button>
+          <button  ng-click="indexVM.click('portfolio')">Portfolio</button>
         </select>
         </span>
       </div>
